@@ -1,3 +1,14 @@
-form{
-color: yellow;
-}
+#order_form form {display:block; position:relative; text-align:left; padding:10px 0 10px 3%}
+#order_form h2 {font-weight:bold; padding:0; margin:15px 0; font-size:1.4em;}
+#order_form input {border: 1px solid #ffbf00; -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;}
+#order_form input:focus {border-color:#333;}
+#order_form .button {clear:both; background-color: #ffffff; border: 2px solid #ffbf00; border-radius:4px; transition: all 0.23s ease-in-out 0s; color: #000; cursor: pointer; display: inline-block; font-size:15px; font-weight: normal; height: 32px; line-height: 32px; margin: 0 5px 10px 0; padding: 0 22px; text-align: center; text-decoration: none; vertical-align: top; white-space: nowrap; width: auto;}
+#order_form .button:hover {background-color: #ffbf00;}
+
+#order_form .mc-field-group {clear:left; position:relative; width:96%; padding-bottom:3%; min-height:50px;}
+#order_form .mc-field-group label {display:block; margin-bottom:3px;}
+#order_form .mc-field-group input {display:block; width:100%; padding:8px 0; text-indent:2%;}
+
+#order_form .asterisk {color:#e85c41; font-size:150%; font-weight:normal; position:relative; top:5px;}
+#order_form .clear {clear:both;}
+#mc-embedded-subscribe {clear:both; width:auto; display:block; margin:1em 0 1em 5%;}
